@@ -6,11 +6,11 @@ namespace DishCreatorLibrary
 {
     public abstract class Dish
     {
-        public int MainRank { get; internal set; }
-        public int SecondRank { get; internal set; }
-        public int ThirdRank { get; internal set; }
-        public int Price { get; internal set; }
-        public int Quantity { get; internal set; }
+        public int MainRank { get;  set; }
+        public int SecondRank { get; set; }
+        public int ThirdRank { get; set; }
+        public int Price { get; set; }
+        public int Quantity { get; set; }
         public string Name { get; }
         public int DinerSerialNumber { get; }
 
