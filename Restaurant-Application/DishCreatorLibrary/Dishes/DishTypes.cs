@@ -6,15 +6,38 @@ namespace DishCreatorLibrary
 {
     public enum eDishTypes
     {
+        Drink,
         Appetizer,
-        MainDish
+        Salad,
+        MainDish,
+        SideDish,
+        Dessert
+    }
+
+    public enum eDrinkTypes
+    {
+        Child,
+        Soft,
+        Wine,
+        Soda,
+        Bear
     }
 
     public enum eAppetizerTypes
     {
         ChickenNuggets,
         ChickenSkewers,
-        ChickenWings
+        ChickenWings,
+        Drink,
+        Salad,
+        SideDish
+    }
+
+    public enum eSaladTypes
+    {
+        ClassicSalad,
+        HealthSalad,
+        CeasarSalad,
     }
 
     public enum eMainDishTypes
@@ -22,5 +45,23 @@ namespace DishCreatorLibrary
         Schnitzel,
         ChickenBreast,
         SpringChicken,
+    }
+
+    public enum eSideDishTypes
+    {
+        Fries,
+        Mashed,
+        OnionRings,
+        Rice,
+        Soup,
+        Salad
+    }    
+
+    public enum eDessertTypes
+    {
+        CremeBrulee,
+        ChocolateCake,
+        Cheesecake,
+        IceCream
     }
 }
