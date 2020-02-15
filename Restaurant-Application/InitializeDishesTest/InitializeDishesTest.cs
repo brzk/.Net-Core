@@ -25,7 +25,7 @@ namespace InitializeDishesTest
 
             Assert.AreEqual(appetizerType, appetizer.Type);
             Assert.AreEqual(dinerSerialNumber, appetizer.DinerSerialNumber);
-            Assert.AreEqual(dishesRank.DishesTypesRank[eDishTypes.Appetizer], appetizer.MainRank);
+            Assert.AreEqual(dishesRank.DishTypesRank[eDishTypes.Appetizer], appetizer.MainRank);
             Assert.AreEqual(name, appetizer.Name);
             Assert.AreEqual(dishesPrices.AppetizerPrices[appetizerType], appetizer.Price);
             Assert.AreEqual(quantity, appetizer.Quantity);

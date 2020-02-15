@@ -26,7 +26,7 @@ namespace DishCreatorLibrary
 
         void SetMainDishRank()
         {
-            if (dishesTypesRank.DishesTypesRank.TryGetValue(DishType, out int rank))
+            if (dishesTypesRank.DishTypesRank.TryGetValue(DishType, out int rank))
             {
                 Dish.MainRank = rank;
             }
